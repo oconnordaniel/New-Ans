@@ -1,0 +1,8 @@
+---
+
+all:
+  hosts:
+    localhost:
+      ansible_connection: local
+      ansible_become_pass: '{{ dans_server_pass }}'
+      ansible_user: dan
